@@ -78,13 +78,6 @@
         android:icon="@drawable/ic_settings_iokp"
         android:title="@string/lab_settings_title" />
 
-    <!-- Profiles -->
-    <header
-        android:id="@+id/profiles_settings"
-        android:icon="@drawable/ic_settings_profiles"
-        android:fragment="com.android.settings.profiles.ProfilesSettings"
-        android:title="@string/profiles_settings_title" />
-
     <!-- Performance Control -->
     <header android:id="@+id/performance_controls"
             android:title="@string/performance_settings"
@@ -104,6 +97,13 @@
                 android:targetPackage="com.tmobile.themechooser"
                 android:targetClass="com.tmobile.themechooser.ThemeChooser" />
     </header>
+
+    <!-- Profiles -->
+    <header
+        android:id="@+id/profiles_settings"
+        android:icon="@drawable/ic_settings_profiles"
+        android:fragment="com.android.settings.profiles.ProfilesSettings"
+        android:title="@string/profiles_settings_title" />
 
     <!-- Device Settings -->
     <header android:id="@+id/advanced_settings"
