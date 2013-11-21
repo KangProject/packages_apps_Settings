@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.aicp;
+package com.android.settings.iokp;
 
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
@@ -52,7 +52,7 @@ public class PlatLogoActivity extends Activity {
                         .setFlags(Intent.FLAG_ACTIVITY_NEW_TASK
                             | Intent.FLAG_ACTIVITY_CLEAR_TASK
                             | Intent.FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS)
-                        .setClassName("com.android.settings","com.android.settings.aicp.Nyandroid"));
+                        .setClassName("com.android.settings","com.android.settings.iokp.Nyandroid"));
                 } catch (ActivityNotFoundException ex) {
                     android.util.Log.e("PlatLogoActivity", "Couldn't find platlogo screensaver.");
                 }
@@ -70,7 +70,7 @@ public class PlatLogoActivity extends Activity {
         mZzz = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
 
         mContent = new ImageView(this);
-        mContent.setImageResource(com.android.settings.R.drawable.platlogo_aicp);
+        mContent.setImageResource(com.android.settings.R.drawable.platlogo_iokp);
         mContent.setScaleType(ImageView.ScaleType.CENTER_INSIDE);
 
         mContent.setOnTouchListener(new View.OnTouchListener() {

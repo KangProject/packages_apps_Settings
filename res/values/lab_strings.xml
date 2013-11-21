@@ -19,7 +19,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Lab Settings.  the title for the item to take the user to the ChaOS Lab settings. -->
-    <string name="lab_settings_title">IOKP extras</string>
+    <string name="lab_settings_title">IOKP Extras</string>
     <!-- Lab Settings summary.  The summary of the item to take the user to the ChaOS Lab settings. -->
     <string name="lab_settings_summary">IOKP features that don\'t belong in RC</string>
 
